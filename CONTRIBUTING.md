@@ -23,8 +23,11 @@ This Diagram can help you understand visually what happens on Dynaconf: https://
 ### Common Workflow:
 
 ```bash
-# clone your fork of this repo
+# Clone your fork of this repo
 git clone git@github.com:{$USER}/dynaconf.git
+
+# Go into the repo directory
+cd dynaconf/
 
 # Add the upstream remote
 git remote add upstream https://github.com/rochacbruno/dynaconf.git
